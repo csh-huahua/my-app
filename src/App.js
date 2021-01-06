@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { Router, Route, Link } from 'react-router'
 
-function App() {
+// import About from './view/about';
+// import Inbox from './view/inbox';
+
+function App () {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <ul>
+          {/* <li><Link to="/about">About</Link></li> */}
+          {/* <li><Link to="/inbox">Inbox</Link></li> */}
+        </ul>
       </header>
     </div>
   );
